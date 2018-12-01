@@ -6,7 +6,7 @@
   var nxWxpromisify = nx.wxPromisify || require('next-wx-promisify');
 
 
-  var NxWeappImage = nx.declare('nx.WeappImage', {
+  var NxWeappImage = nx.declare('nx.weapp.Image', {
     statics: {
       choose: function (inOptions) {
         return new Promise(function (resolve, reject) {
